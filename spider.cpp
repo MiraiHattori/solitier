@@ -150,8 +150,8 @@ std::ostream& operator<<(std::ostream& os, const Board& board) {
 }
 
 // file format
-// row is row
-// column is column
+// row is column
+// column is row
 // split with commas
 
 Board loadFromFile(const std::string& file)
